@@ -1,5 +1,5 @@
 :root {
-  --app-bg: url(https://i.ibb.co/PMHQ99g/150865-burya-grom-belye-priroda-atmosfera-3840x2160.jpg);
+  --app-bg: url(https://i.ibb.co/c126b29/zxchumorist.jpg);
   --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -106,11 +106,6 @@
   --text-link: hsl(var(--accent-hsl));
 }
 
-/*
- *
- *  APP ELEMENTS
- *
- */
 body {
   background-color: transparent;
 }
@@ -165,11 +160,6 @@ body {
   backdrop-filter: blur(var(--popout-blur));
 }
 
-/*
- *
- *  TITLE BAR
- *
- */
 .titleBar_a934d8, .icon_aade6b .titleBar_a934d8 {
   height: 24px;
 }
@@ -206,11 +196,7 @@ body {
   margin-top: 32px;
 }
 
-/*
- *
- *  CHANNELS LIST
- *
- */
+
 .platform-win .sidebar_a4d4d9 {
   border-radius: 0;
 }
@@ -247,7 +233,7 @@ body {
   border: none;
 }
 
-/* CHANNELS LIST -> ACTION BUTTONS */
+
 .actionButton-2ae9DJ, .icon_aade6b .actionButton-2ae9DJ {
   background-color: var(--background-modifier-hover);
   border-radius: var(--list-item-radius);
@@ -260,11 +246,6 @@ body {
   background-color: var(--background-modifier-accent);
 }
 
-/*
- *
- *  PANELS
- *
- */
 .panels_a4d4d9, .icon_aade6b .panels_a4d4d9 {
   background-color: transparent;
 }
@@ -337,7 +318,6 @@ body {
   border-bottom-color: var(--background-modifier-accent);
 }
 
-/* PANELS -> QUEST */
 .wrapper_c721cc, .icon_aade6b .wrapper_c721cc {
   background-color: transparent !important;
   border-radius: 0;
@@ -379,11 +359,7 @@ body {
   border-radius: 0;
 }
 
-/*
- *
- *  PRIVATE CHANNELS
- *
- */
+
 .privateChannels_f0963d, .icon_aade6b .privateChannels_f0963d,
 .scroller_c47fa9,
 .icon_aade6b .scroller_c47fa9 {
@@ -402,11 +378,7 @@ body {
   border-radius: var(--list-item-radius);
 }
 
-/*
- *
- *  CHAT AREA
- *
- */
+
 .chat_a7d72e, .icon_aade6b .chat_a7d72e,
 .noChannel_e1ef5f,
 .icon_aade6b .noChannel_e1ef5f {
@@ -463,11 +435,6 @@ body {
   color: var(--accent-text-color);
 }
 
-/*
- *
- *  DIRECT MESSAGES
- *
- */
 .wrapper_d880dc.minimum_d880dc, .wrapper_d880dc.video_d880dc {
   background-color: transparent;
   box-shadow: var(--popout-header-shadow);
@@ -490,7 +457,7 @@ body {
   box-shadow: inset 0 0 0 2px hsl(var(--accent-hsl)), inset 0 0 0 3px var(--background-secondary);
 }
 
-/* DIRECT MESSAGES -> SIDEBAR PROFILE */
+
 .userProfileOuterUnthemed_c69a7b, .icon_aade6b .userProfileOuterUnthemed_c69a7b {
   background-color: transparent;
 }
@@ -513,11 +480,6 @@ body {
   --button-action-color: transparent;
 }
 
-/*
- *
- *	FORMAT TOOLBAR
- *
- */
 .toolbar_de3e42, .icon_aade6b .toolbar_de3e42 {
   background-color: var(--popout-color) !important;
   border-radius: var(--popout-radius) !important;
